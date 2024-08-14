@@ -12,7 +12,7 @@ body{
 
 .header1{
     display: flex;
-    padding: 20px 10%;
+    padding: 1.25em 10%;
     align-items: center;
     flex-direction: column;
 
@@ -25,7 +25,8 @@ body{
 .navbar a{
     height: 100%;
     display: inline-flex;
-    padding: 25px 2%;
+    /* padding: 25px 2%; */
+    padding: 1.5625em 2%;
     font-size: 18px;
     color:#ededed;
     text-decoration: none;
@@ -46,13 +47,13 @@ body{
 
 .header1 {
     position: fixed;
-    left: 200px;
-    right: 200px;
+    left: 12.5em;
+    right: 12.5em;
     /* display: inline-block; Shrinks the border to fit the content */
     margin-top: 12%;
     text-align: center;
     border: 2px solid #00abf0;
-    padding: 20px;
+    padding: 1.25em;
     /* max-width: 90%; */
     /* width: 50%; */
 }
@@ -75,13 +76,13 @@ body{
 
 
 .header1 h3{
-    margin:20px 0 40px;
+    margin:1.25em 0 2.5em;
     font-size: 28px;
     
 }
 
 .header1 p{
-    margin: 20px 6%;
+    margin: 1.25em 6%;
     line-height: 1.6;  /* readable*/
     padding: 0 10px; 
     font-size: larger;
